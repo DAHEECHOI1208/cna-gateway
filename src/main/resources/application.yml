@@ -48,7 +48,7 @@ spring:
           predicates:
             - Path=/deliveries/**,/cancelations/**
         - id: CustomerCenter
-          uri: http://localhost:8080
+          uri: http://CustomerCenter:8080
           predicates:
             - Path=/myPages/**
       globalcors:
